@@ -23,8 +23,8 @@ email: info@mungercoin.org
 description: >- # this means to ignore newlines until "baseurl:"
   MungerCoin: Where laughter meets irony in the world of cryptocurrency,
   inspired by Charlie Munger's candid views.
-baseurl: "/mungercoin-website" # the subpath of your site, e.g. /blog
-url: "mungercoin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "mungercoin.github.io/mungercoin-website" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Munger_Coin
 github_username:  mungercoin
 
