@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main  # or whichever branch you use for GitHub Pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build
+      run: echo "Triggered a rebuild."
